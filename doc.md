@@ -290,7 +290,7 @@ FROM
 WHERE
     SenzorID = (SELECT SenzorID FROM Senzor WHERE Nazov = 'Full frame');
 ```
-![Query No.1](images\Q1.png)
+![Query No.1](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q1.png?raw=True)
 
 
 &nbsp;
@@ -308,7 +308,7 @@ FROM
 WHERE
     z.Nazov = 'sony';
 ```
-![Query No.2](images\Q2.png)
+![Query No.2](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q2.png?raw=True)
 
 
 &nbsp;
@@ -323,7 +323,7 @@ FROM
 WHERE
     PobockaID = (SELECT PobockaID FROM Pobocka WHERE Nazov = 'trenčín');
 ```
-![Query No.3](images\Q3.png)
+![Query No.3](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q3.png?raw=True)
 
 
 &nbsp;
@@ -339,7 +339,7 @@ WHERE
 ORDER BY
     RokVyroby DESC;
 ```
-![Query No.4](images\Q4.png)
+![Query No.4](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q4.png?raw=True)
 
 
 &nbsp;
@@ -356,7 +356,7 @@ WHERE
     AND
     f.TypFotoaparatuID = (SELECT TypFotoaparatuID FROM TypFotoaparatu WHERE Nazov = 'bezzrkadlovka');
 ```
-![Query No.5](images\Q5.png)
+![Query No.5](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q5.png?raw=True)
 
 
 &nbsp;
@@ -373,7 +373,7 @@ GROUP BY
 	onp.PobockaID,
 	p.Nazov;
 ```
-![Query No.6](images\Q6.png)
+![Query No.6](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q6.png?raw=True)
 
 
 &nbsp;
@@ -406,7 +406,7 @@ JOIN
 
 ORDER BY total_count DESC;
 ```
-![Query No.7](images\Q7.png)
+![Query No.7](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q7.png?raw=True)
 
 
 &nbsp;
@@ -423,7 +423,7 @@ FROM
 GROUP BY
     zf.Nazov;
 ```
-![Query No.8](images\Q8.png)
+![Query No.8](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q8.png?raw=True)
 
 
 &nbsp;
@@ -442,7 +442,7 @@ WHERE
 GROUP BY
     typo.Nazov;
 ```
-![Query No.9](images\Q9.png)
+![Query No.9](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q9.png?raw=True)
 
 
 &nbsp;
@@ -472,7 +472,7 @@ SET Hmotnost = 100
 
 SELECT * FROM Prislusenstvo
 ```
-![Query No.12](images\Q12.png)
+![Query No.12](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q12.png?raw=True)
 
 
 &nbsp;
@@ -506,7 +506,7 @@ Group BY
 ORDER BY
     popis_len DESC
 ```
-![Query No.14](images\Q14.png)
+![Query No.14](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q14.png?raw=True)
 
 
 &nbsp;
@@ -545,4 +545,4 @@ WHERE
     onp.PobockaID = (SELECT PobockaID FROM Pobocka WHERE Nazov = 'bratislava')
     AND fnp.PobockaID = (SELECT PobockaID FROM Pobocka WHERE Nazov = 'bratislava')
 ```
-![Query No.15](images\Q15.png)
+![Query No.15](https://github.com/AstroTitanus/evidencia_fotoaparatov/blob/main/images/Q15.png?raw=True)
