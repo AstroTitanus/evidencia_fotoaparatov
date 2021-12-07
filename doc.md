@@ -1,10 +1,11 @@
 # Evidencia Fotoaparátov
 Pokračovanie word dokumentu, nakolko vo worde sa naozaj zle pracuje s kódom.
 
-<!-- ## Zadanie
-Navrhnite databázu vhodnú pre evidenciu fotoaparátov. Bude evidovať pobočky,  fotoaparáty, objektívy a príslušenstvo k fotoaparátom. Fotoaparáty majú rôzne parametre, rovnako ako aj objektívy.  Treba ukladať aj aké produkty sú na akej pobočke.
+&nbsp;
 
-![Diagram databázy evidencie fotoaparátov](images\DB_RD.jpg) -->
+## Obsah
+3. [Naplnenie tabuliek dátami](#3.-Naplnenie-tabuliek-dátami)
+4. [Dotazy](#Dotazy) 
 
 &nbsp;
 
