@@ -4,8 +4,8 @@ Pokračovanie word dokumentu, nakolko vo worde sa naozaj zle pracuje s kódom.
 &nbsp;
 
 ## Obsah
-3. [Naplnenie tabuliek dátami](#3.-Naplnenie-tabuliek-dátami)
-4. [Dotazy](#Dotazy) 
+3. [Naplnenie tabuliek dátami](#3.naplnenie-tabuliek-datami)
+4. [Dotazy](#dotazy)
 
 &nbsp;
 
