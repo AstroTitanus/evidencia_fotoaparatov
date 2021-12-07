@@ -4,8 +4,8 @@ Pokračovanie word dokumentu, nakolko vo worde sa naozaj zle pracuje s kódom.
 &nbsp;
 
 ## Obsah
-3. [Naplnenie tabuliek dátami](#3.naplnenie-tabuliek-datami)
-4. [Dotazy](#dotazy)
+3. [Naplnenie tabuliek dátami](#3.-naplnenie-tabuliek-datami)
+4. [Dotazy](#4.-dotazy)
 
 &nbsp;
 
@@ -280,7 +280,7 @@ VALUES
 ```
 &nbsp;
 
-## 5. Dotazy
+## 4. Dotazy
 ``` sql
 -- 1. Vypis vsetky fotaky s Full frame senzorom.
 
